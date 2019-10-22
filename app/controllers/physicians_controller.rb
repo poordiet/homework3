@@ -11,9 +11,6 @@ class PhysiciansController < ApplicationController
   # GET /physicians/1
   # GET /physicians/1.json
   def show
-    @offices = Office.all
-    @appointments = Appointment.all
-    @physicians = Physician.all
   end
 
   # GET /physicians/new
