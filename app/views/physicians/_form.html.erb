@@ -26,10 +26,8 @@
 
   <div id="office">
 
-    <%= form.fields_for :offices do |office| %>
-      <%= render 'office_fields', :f => office %>
-    <% end %>
-    <div class="links">
+
+    <div class="offices">
       <%= link_to_add_association 'Add office', form, :offices %>
     </div>
   </div>
