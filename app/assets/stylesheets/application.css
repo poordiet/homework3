@@ -19,3 +19,32 @@
     background-color: lightskyblue;
     padding: 10px;
 }
+
+div {
+    display: block;
+}
+
+
+.location-table {
+    margin: 10px;
+    padding: 10px;
+}
+
+.blueTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+    table-layout: fixed;
+}
+
+.blueTable th, .blueTable td {
+    text-align: left;
+    padding: 5px;
+    border: 1px solid black;
+
+}
+
+.blueTable tr:nth-child(even) {
+    background-color: lightskyblue;
+    border: 1px solid black;
+}
